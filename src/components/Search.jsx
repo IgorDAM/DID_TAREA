@@ -3,7 +3,9 @@ export const Search = () => {
     <div>
       <div className="relative max-w-md ml-auto">
         <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
-          <span className="material-symbols-outlined text-gray-400">search</span>
+          <span className="material-symbols-outlined text-gray-400">
+            search
+          </span>
         </div>
         <input
           type="text"
@@ -12,7 +14,9 @@ export const Search = () => {
           disabled
         />
         <div className="absolute inset-y-0 right-0 flex items-center pr-3">
-          <span className="text-xs text-gray-400 bg-gray-100 px-2 py-1 rounded">Demo</span>
+          <span className="text-xs text-gray-400 bg-gray-100 px-2 py-1 rounded">
+            Demo
+          </span>
         </div>
       </div>
     </div>
