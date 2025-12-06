@@ -13,11 +13,6 @@ export const Search = () => {
           placeholder="Search student name..."
           disabled
         />
-        <div className="absolute inset-y-0 right-0 flex items-center pr-3">
-          <span className="text-xs text-gray-400 bg-gray-100 px-2 py-1 rounded">
-            Demo
-          </span>
-        </div>
       </div>
     </div>
   );
