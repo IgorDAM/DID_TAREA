@@ -1,16 +1,64 @@
-# React + Vite
+# DID_TAREA
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Resumen de Características
 
-Currently, two official plugins are available:
+Este proyecto es una aplicación web desarrollada con React y Vite que incluye:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Interfaz de usuario construida con React 18
+- Sistema de estilos con Tailwind CSS
+- Hot Module Replacement (HMR) para desarrollo rápido
+- Configuración de linting con ESLint y Stylelint
+- Build optimizado para producción con Vite
 
-## React Compiler
+## Dependencias Requeridas
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+### Requisitos del Sistema
+- Node.js (versión 18 o superior)
+- npm o yarn
 
-## Expanding the ESLint configuration
+### Dependencias del Proyecto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Producción:**
+- react: ^18.x
+- react-dom: ^18.x
+
+**Desarrollo:**
+- vite: ^6.x
+- @vitejs/plugin-react
+- tailwindcss: ^3.x
+- postcss: ^8.x
+- autoprefixer: ^10.x
+- eslint: ^9.x
+- stylelint: ^16.x
+
+## Cómo Ejecutar la Aplicación
+
+### 1. Clonar el repositorio e instalar dependencias
+
+```bash
+git clone https://github.com/IgorDAM/DID_TAREA.git
+cd DID_TAREA
+npm install
+```
+
+### 2. Ejecutar en modo desarrollo
+
+```bash
+npm run dev
+```
+
+La aplicación se abrirá en `http://localhost:5173`
+
+### 3. Compilar para producción
+
+```bash
+npm run build
+```
+
+Los archivos compilados se generarán en el directorio `dist/`
+
+### 4. Previsualizar build de producción
+
+```bash
+npm run preview
+```
